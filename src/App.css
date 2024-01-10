@@ -1,1 +1,13 @@
 /* add your styles here */
+#parent {
+  display: grid;
+  margin-left: 35px;
+  margin-top: 25px;
+  grid-template-columns: 660px 660px;
+  /* column-gap: 25px; */
+  row-gap: 25px;
+}
+img {
+  width: 93%;
+  height: 100%;
+}

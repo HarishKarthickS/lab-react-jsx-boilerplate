@@ -9,6 +9,7 @@ import AppClass from './AppClass';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
+    <h1>Kalvium gallery</h1>
     <AppClass />   
     {/* change the above line - for interchaning between App and AppClass */}
   </React.StrictMode>
