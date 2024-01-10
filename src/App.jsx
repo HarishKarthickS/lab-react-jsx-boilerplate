@@ -24,7 +24,18 @@ const imageData = ()=>{
 }
 
 function App() {
-  // code here
+  const image = imageData();
+  return(
+    <>
+      <div id="parent">{
+        image.map(element => {
+          return(
+            <img key={element.id} src={element.img} id={element.id}></img>)
+            console.log(element);
+        })
+      }
+      </div>
+    </>
+   )
 }
-
-export default App;
+export default App

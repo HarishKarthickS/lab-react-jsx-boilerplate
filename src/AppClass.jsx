@@ -26,5 +26,17 @@ export default class AppClass extends Component{
     return data;
   }
 
-  // code here
+  render(){
+    return(
+      <div className="App">
+        {this.imageData().map((item,index)=>{
+          return(
+            <div className="card" key={index}>
+              <img src={item.img} alt="elephant" />
+            </div>
+          )
+        })}
+      </div>
+    )
+  }
 }
