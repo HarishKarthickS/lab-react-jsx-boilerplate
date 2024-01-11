@@ -1,9 +1,9 @@
 /* add your styles here */
 #parent {
   display: grid;
-  margin-left: 35px;
+  margin-left: 2%;
   margin-top: 25px;
-  grid-template-columns: 660px 660px;
+  grid-template-columns: 51% 51%;
   /* column-gap: 25px; */
   row-gap: 25px;
 }
